@@ -1,0 +1,14 @@
+.full-background {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to bottom right, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 218, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    /* background-image: url('images/gradient.jpg'); */
+}
+
+.introduction {
+    background-color: silver;
+    font-family: "Courier New";
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}

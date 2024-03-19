@@ -6,22 +6,38 @@
 
 .introduction {
     background-color: silver;
-    font-family: "Courier New";
+    font-family: "Segoe UI";
     text-align: center;
     border-radius: 25px;
     border: 2px solid black;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
+    min-width: 1170px;
+    width: 70%;
 }
 
 .experience {
     background-color: silver;
-    font-family: "Courier New";
+    font-family: "Segoe UI";
     text-align: center;
     border-radius: 25px;
     border: 2px solid black;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
+    min-width: 1170px;
+    width: 70%;
+}
+
+.education {
+    background-color: silver;
+    font-family: "Verdana";
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    min-width: 1170px;
+    width: 70%;
 }
 
 .collapsible {
@@ -38,16 +54,6 @@
 
 .active .collapsible:hover {
     background-color: #ccc;
-}
-
-.education {
-    background-color: silver;
-    font-family: "Courier New";
-    text-align: center;
-    border-radius: 25px;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
 }
 
 .grey-color {
@@ -73,6 +79,7 @@
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Courier New";
     text-align: left;
     width: fit-content;
     max-height: 0;
@@ -86,6 +93,8 @@
     text-align: center;
     border-radius: 25px;
     border: 2px solid black;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
+    min-width: 1170px;
+    width: 70%;
 }

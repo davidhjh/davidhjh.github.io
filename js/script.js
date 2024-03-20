@@ -1,9 +1,9 @@
-var coll = document.getElementsByClassName("collapsible");
+var coll = Array.from(document.getElementsByClassName("collapsible-experience"));
+coll = coll.concat(Array.from(document.getElementsByClassName("collapsible-education")));
 var i;
-
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
+        // this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.maxHeight) {
             content.style.maxHeight = null;

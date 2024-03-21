@@ -4,7 +4,7 @@
     /* background-image: url('images/gradient.jpg'); */
 }
 
-.introduction {
+.section {
     background-color: silver;
     font-family: "Verdana";
     text-align: center;
@@ -12,19 +12,7 @@
     border: 2px solid black;
     margin: 20px auto;
     padding: 20px;
-    min-width: min(1170px, 100%);
-    width: 70%;
-}
-
-.experience {
-    background-color: silver;
-    font-family: "Verdana";
-    text-align: center;
-    border-radius: 25px;
-    border: 2px solid black;
-    margin: 20px auto;
-    padding: 20px;
-    min-width: min(1170px, 100%);
+    min-width: min(400px, 100%);
     width: 70%;
 }
 
@@ -56,18 +44,6 @@
 
 span {
     margin-left:1.75em;
-}
-
-.projects {
-    background-color: silver;
-    font-family: "Verdana";
-    text-align: center;
-    border-radius: 25px;
-    border: 2px solid black;
-    margin: 20px auto;
-    padding: 20px;
-    min-width: min(1170px, 100%);
-    width: 70%;
 }
 
 .projects-text {
@@ -136,16 +112,4 @@ span {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-}
-
-.conclusion {
-    background-color: silver;
-    font-family: "Verdana";
-    text-align: center;
-    border-radius: 25px;
-    border: 2px solid black;
-    margin: 20px auto;
-    padding: 20px;
-    min-width: min(1170px, 100%);
-    width: 70%;
 }

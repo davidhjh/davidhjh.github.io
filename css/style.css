@@ -70,6 +70,13 @@ span {
     width: 70%;
 }
 
+.projects-text {
+    padding: 0 20px;
+    font-family: "Verdana";
+    text-align: left;
+    width: fit-content;
+}
+
 .education {
     background-color: silver;
     font-family: "Verdana";

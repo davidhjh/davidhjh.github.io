@@ -95,13 +95,13 @@ span {
 }
 
 .left-column {
-    flex: 4;
+    flex: 1;
     padding-right: 10px;
     text-align: right;
 }
 
 .right-column {
-    flex: 5;
+    flex: 3;
     text-align: left;
 }
 
@@ -156,7 +156,7 @@ span {
 .checkbox {
     display: inline-grid;
     grid-template-columns: auto auto;
-    margin: 20 auto;
+    margin: 20px auto;
 }
 
 .compulsory {

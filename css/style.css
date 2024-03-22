@@ -4,6 +4,19 @@
     /* background-image: url('images/gradient.jpg'); */
 }
 
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: black;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #ccc;
+}
+
 .section {
     background-color: silver;
     font-family: "Verdana";

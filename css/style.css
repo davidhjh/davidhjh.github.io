@@ -38,8 +38,13 @@ a.button[disabled]:hover {
     border: 2px solid black;
     margin: 20px auto;
     padding: 20px;
-    min-width: min(400px, 100%);
+    min-width: min(350px, 100%);
     width: 70%;
+}
+
+.crop-intro {
+    height: 450px;
+    overflow: hidden;
 }
 
 .collapsible-experience {
@@ -73,7 +78,7 @@ a.button[disabled]:hover {
     padding: 0 20px;
     font-family: "Verdana";
     text-align: left;
-    width: fit-content;
+    /* width: fit-content; */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -95,13 +100,13 @@ span {
 }
 
 .left-column {
-    flex: 1;
+    flex: 3;
     padding-right: 10px;
     text-align: right;
 }
 
 .right-column {
-    flex: 3;
+    flex: 7;
     text-align: left;
 }
 

@@ -16,12 +16,12 @@ a.button {
     justify-content: center;
 }
 
-a.button:hover {
+a.button[disabled] {
     background-color: #ccc;
 }
 
-a.button[disabled]:hover {
-    background-color: #eee;
+a.button:hover {
+    background-color: #ccc;
 }
 
 .icon {

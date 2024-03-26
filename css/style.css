@@ -42,9 +42,32 @@ a.button[disabled]:hover {
     width: 70%;
 }
 
-.crop-intro {
-    height: 450px;
+.split-content {
+    display: flex;
+}
+
+.left-column-intro {
+    flex: 2;
+    padding-right: 15px;
+}
+
+.right-column-intro {
+    flex: 12;
+    text-align: left;
+}
+
+.crop-container {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
     overflow: hidden;
+}
+
+.crop-container img {
+    margin-top: -23px;
+    margin-left: -12px;
 }
 
 .collapsible-experience {
@@ -95,17 +118,13 @@ span {
     width: fit-content;
 }
 
-.split-content {
-    display: flex;
-}
-
-.left-column {
+.left-column-skills {
     flex: 3;
     padding-right: 10px;
     text-align: right;
 }
 
-.right-column {
+.right-column-skills {
     flex: 7;
     text-align: left;
 }

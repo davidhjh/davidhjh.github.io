@@ -1,6 +1,6 @@
 .full-background {
     background: rgb(2, 0, 36);
-    background: linear-gradient(to bottom right, rgba(2, 0, 36, 1) 0%, rgba(41, 41, 218, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(to top left, rgb(12, 7, 112) 0%, rgb(56, 125, 230) 50%, rgba(0, 212, 255, 1) 100%);
     /* background-image: url('images/gradient.jpg'); */
 }
 
@@ -73,8 +73,8 @@ a.button:hover {
 }
 
 .collapsible-experience {
-    background-color: #777;
-    color: white;
+    background-color: #ccc;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -94,7 +94,7 @@ a.button:hover {
     font-family: "Arial";
     font-weight: bold;
     font-size: 16px;
-    color: white;
+    color: black;
     float: right;
     margin-left: 5px;
 }

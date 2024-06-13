@@ -17,7 +17,12 @@ All notable changes to this project will be documented in this file.
   
 Official first complete draft of the website
  
- ## [1.1] - 2024-05-21
+## [1.1] - 2024-05-21
   
 Updated resume to one page format
+ 
+## [1.2] - 2024-06-12
+  
+Added simple neural network project to projects section
+ 
  
